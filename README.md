@@ -9,6 +9,7 @@ Objetivo: Desenvolvimento de uma API do tipo REST para manipulação de dados do
    · [MongoDB](https://www.mongodb.com/download-center)  
    · API pública do [StarWars](https://swapi.dev/about)    
    · [Eclipse](https://www.eclipse.org/downloads/)  
+   · [Git](https://git-scm.com/downloads)  
    · [Docker](https://docs.docker.com/)  
    · [Postman](https://www.postman.com/downloads/)
   
@@ -48,11 +49,11 @@ Ex-> `DELETE: http://localhost:8081/api/planetas/5ec406df5716790bb81f815e`
 
 
 * ## Instruções para execução:
-  · Com o git instalado, clonar o projeto:
+  · Com o [Git](https://git-scm.com/downloads) instalado, clonar o projeto:
   
 	      git clone https://github.com/cryslene/StarWarsRestAPI.git
         
-  · Com o docker instalado e na pasta do projeto usar o comando:
+  · Com o [Docker](https://docs.docker.com/) instalado e na pasta do projeto usar o comando:
   
 	      docker-compose up
         
