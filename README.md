@@ -34,18 +34,26 @@ Ex-> `POST: http://localhost:8081/api/planetas`
 	    "clima": "temperate",
 	    "terreno": "grassy hills, swamps, forests, mountains"
     }
+    Resposta:
+    {
+            "id": "5eccb3966344590001905ddb",
+            "nome": "Naboo",
+            "clima": "temperate",
+            "terreno": "grassy hills, swamps, forests, mountains",
+            "quantidadeDeAparicoes": 4
+     }
 
 * #### Listar todos os planetas:
 Ex-> `GET: http://localhost:8081/api/planetas`
 
 * #### Buscar um planeta por nome;
-Ex-> `GET: http://localhost:8081/api/planetas/?nome=Dagobah`
+Ex-> `GET: http://localhost:8081/api/planetas/?nome=Naboo`
 
 * #### Buscar um planeta pelo ID;
-Ex-> `GET: http://localhost:8081/api/planetas/5ec4153b5716793d30dcae26`
+Ex-> `GET: http://localhost:8081/api/planetas/5eccb3966344590001905ddb`
 
 * #### Remover um planeta (remove pelo ID);
-Ex-> `DELETE: http://localhost:8081/api/planetas/5ec406df5716790bb81f815e`
+Ex-> `DELETE: http://localhost:8081/api/planetas/5eccb3966344590001905ddb`
 
 
 * ## Instruções para execução:
