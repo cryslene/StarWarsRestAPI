@@ -64,10 +64,12 @@ Ex-> `DELETE: http://localhost:8081/api/planetas/5eccb3966344590001905ddb`
   · Com o [Docker](https://docs.docker.com/) instalado e na pasta do projeto usar o comando:
   
 	      docker-compose up
+	 (Para encerrar o serviço-> `CTRL+C`)
         
   · Se quiser iniciar o projeto em background (segundo plano) é só utilizar o comando:
   
       	docker-compose up -d
+	(Para encerrar o serviço-> `docker-compose down`)
         
   · Se desejar ver os serviços que estão rodando:
   
@@ -80,9 +82,3 @@ Ex-> `DELETE: http://localhost:8081/api/planetas/5eccb3966344590001905ddb`
 
 
 # MAY THE FORCE BE WITH YOU!
-
-
-Referências:  
-    · [Criar APIREST](https://www.youtube.com/watch?v=dkMSHEpJGYQ)  
-    · [Docker Compose](https://cursos.alura.com.br/forum/topico-docker-compose-com-spring-boot-e-monngodb-61196)  
-    · [Docker na Prática](https://www.youtube.com/watch?v=4mC7JcSKeU4&t=529s).
