@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  spring:
+    build: .
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/apiswstarwars
+    container_name: starwars
+    ports:
+      - 8081:8080
+    depends_on:
+      - mongo
+    links:
+      - mongo
+    networks:
+      - db-network
+  mongo:
+    image: mongo
+    container_name: starwars-mongo
+    ports:
+      - 27017:27017
+    command: mongod --smallfiles --logpath=/dev/null # --quiet
+    networks:
+      - db-network
+networks:
+  db-network:
+    driver: bridge
+

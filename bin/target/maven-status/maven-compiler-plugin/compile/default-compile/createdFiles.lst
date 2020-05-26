@@ -1,0 +1,15 @@
+com\apisw\starwars\plan\MappingApiSw.class
+com\apisw\starwars\services\PlanetaServiceRepoApi$1.class
+com\apisw\starwars\controllers\PlanetaController.class
+com\apisw\starwars\exceptions\BadRequestPlanet.class
+com\apisw\starwars\exceptions\ExceptionError.class
+com\apisw\starwars\exceptions\BadRequest.class
+com\apisw\starwars\exceptions\MssgError.class
+com\apisw\starwars\plan\Planeta.class
+com\apisw\starwars\exceptions\ServiceError.class
+com\apisw\starwars\exceptions\RespoErrorApi.class
+com\apisw\starwars\plan\MappingSw.class
+com\apisw\starwars\services\PlanetaServiceRepoApi.class
+com\apisw\starwars\repositories\PlanetaRepositorio.class
+com\apisw\starwars\services\PlanetaService.class
+com\apisw\starwars\StarWarsApiApplication.class
