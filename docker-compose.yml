@@ -19,7 +19,7 @@ services:
     container_name: starwars-mongo
     ports:
       - 27017:27017
-    command: mongod --smallfiles --logpath=/dev/null # --quiet
+    command: mongods --logpath=/dev/null # --quiet
     networks:
       - db-network
 networks:
